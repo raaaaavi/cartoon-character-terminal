@@ -1,13 +1,16 @@
-console.log("Cartoon Characters");
+console.log("Choose a Cartoon Character:\n");
 
-const characters = [
-"Garfield",
-"Odie",
-"Nermal",
-"Pooky",
-"Jon"
-];
+console.log("1. Garfield");
+console.log("2. Odie");
+console.log("3. Nermal");
+console.log("4. Pooky");
+console.log("5. Jon\n");
 
-characters.forEach((c,i)=>{
-console.log((i+1) + ". " + c);
-});
+console.log("Example Cartoon (Garfield):\n");
+
+console.log(`
+   /\\_/\\
+  ( o.o )
+   > ^ <
+ Garfield the Cat
+`);
